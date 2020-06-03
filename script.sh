@@ -6,7 +6,6 @@ clear
 echo "Hello World!"
 
 DIRECTORY=`pwd`
-COW=fortune | cowsay
 let counter=1
 let next=$counter+1
 
