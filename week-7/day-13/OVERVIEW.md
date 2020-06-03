@@ -1,29 +1,6 @@
-#!/bin/bash
-#simple script file that shows how I created this directory, feel free to ignore this!
 
-clear
 
-echo "Hello World!"
-
-DIRECTORY=`pwd`
-COW=fortune | cowsay
-let counter=1
-let next=$counter+1
-
-mkdir week-{1..8}
-
-for week in week-*; do
-	cd $week
-	mkdir day-$counter day-$next
-	for day in day-*; do 
-		cd $day
-		echo "---------------------"
-		echo "Making an md file in $day"
-		echo "position: $day"
-		pwd
-		echo "
-
-# DATE, 2020 - Day $day
+# DATE, 2020 - Day day-13
 
 
 ## Agenda
@@ -59,13 +36,17 @@ for week in week-*; do
 
 ## Quote of the Day 
 
-\`\`\`
-`fortune | cowsay`
+```
+ _______________________________________
+/ <Culus> OH MY GOD NOT A RANDOM QUOTE  \
+| GENERATOR <netgod> surely you didn't  |
+| think that was static? how lame would |
+\ that be? :-)                          /
+ ---------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 
-\`\`\`" >> OVERVIEW.md
-		let counter=$next
-		let next=$counter+1
-		cd $DIRECTORY/$week
-		done 
-	cd $DIRECTORY
-done
+```
