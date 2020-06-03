@@ -1,4 +1,5 @@
 #!/bin/bash
+#simple script file that shows how I created this directory, feel free to ignore this!
 
 clear
 
