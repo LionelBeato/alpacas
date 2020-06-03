@@ -19,22 +19,23 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
 ## Lab
 
+### Install Apps through JetBrains Toolbox
+
+1. Download Toolbox and launch it.
+2. Install DataGrip EAP and Intellij EAP.
+
+### Make sure you have JDK11 installed
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
 ### HTML Review
-
 
 ## Notes and Links
 
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ____________________________________
