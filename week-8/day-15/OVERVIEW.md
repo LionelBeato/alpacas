@@ -37,34 +37,17 @@
 ## Quote of the Day 
 
 ```
- _________________________________________
-/ What I'd like to see is a prohibition   \
-| on Microsoft incorporating              |
-| multi-megabyte Easter Eggs and other    |
-| stupid bloatware into Windows and       |
-| Office. A typical computer with         |
-| pre-installed Microsoft shoveware       |
-| probably only has about 3 megabytes of  |
-| hard drive space free because of flight |
-| simulators, pinball games, and          |
-| multimedia credits Easter Eggs that     |
-| nobody wants. I predict that if         |
-| Microsoft is ever forced to remove      |
-| these things, the typical user will     |
-| actually be able to purchase competing  |
-| software now that they have some free   |
-| space to put it on. Of course, stock in |
-| hard drive companies might plummet...   |
-|                                         |
-| -- Anonymous Coward, when asked by      |
-| Humorix for his reaction                |
-|                                         |
-\ to the proposed Microsoft two-way split /
- -----------------------------------------
+ _______________________________________
+/ Everything you read in newspapers is  \
+| absolutely true, except for that rare |
+| story of which you happen to have     |
+| first-hand knowledge.                 |
+|                                       |
+\ -- Erwin Knoll                        /
+ ---------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
-
 ```

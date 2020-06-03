@@ -37,18 +37,11 @@
 ## Quote of the Day 
 
 ```
- _________________________________________
-/ To a New Yorker, all Californians are   \
-| blond, even the blacks. There are, in   |
-| fact, whole neighborhoods that are      |
-| zoned only for blond people. The only   |
-| way to tell the difference between      |
-| California and Sweden is that the       |
-| Swedes speak better English."           |
-|                                         |
-| -- From "East vs. West: The War Between |
-\ the Coasts                              /
- -----------------------------------------
+ ______________________________________
+/ If the master dies and the disciple  \
+| grieves, the lives of both have been |
+\ wasted.                              /
+ --------------------------------------
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\

@@ -38,10 +38,13 @@
 
 ```
  _________________________________________
-/ Caveats: it's GNOME, be afraid, be very \
-| afraid of the Depends line              |
+/ Hoffer's Discovery:                     \
 |                                         |
-\ -- James Troup                          /
+| The grand act of a dying institution is |
+| to issue a newly                        |
+|                                         |
+| revised, enlarged edition of the        |
+\ policies and procedures manual.         /
  -----------------------------------------
         \   ^__^
          \  (oo)\_______
