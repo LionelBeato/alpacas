@@ -32,8 +32,8 @@
 1. [Go here for JDK11](https://adoptopenjdk.net/).
 2. Be sure you have JDK11 selected whenever we start a new project! 
 
-## Hand in Assignments
->these are expected to be handed in through TiTuS.
+<!-- ## Hand in Assignments
+>these are expected to be handed in through TiTuS. -->
 
 ## Notes and Links
 

@@ -34,13 +34,25 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### HackerRank Challenge
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following exercises:
+    - Java 1D Array
+    - Java 2D Array
+    - Java Subarray
+    - Java ArrayList
+    - Java 1D Array (Part 2)
+    - Java List
+    - Java Map
+2. When you solve all of the examples, take a screenshot of the listing so that we can see "Solved" next to each of the exercises listed above.
+3. Submit your screenshot under *HackerRank Exercises: Java Arrays*.
+
 ### Tic-Tac-Toe Project
 
 1. Finish your project.
 2. The project will be due by the end of the week on Sunday.
 
 ## Notes and Links
-
 
 ## Quote of the Day
 
