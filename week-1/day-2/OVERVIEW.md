@@ -24,7 +24,7 @@
 
 1. Create three arrays with five items each.
 2. Create an `ArrayList` and add five items to it with the `.add()` method.
-3. Create a `HashMap` and add five items to it with the `.add()` method. 
+3. Create a `HashMap` and add five items to it with the `.add()` method.
 
 ### Start Your Tic-Tac-Toe Project
 
