@@ -1,11 +1,12 @@
 
 
-# DATE, 2020 - Day day-1
+# JUNE 3, 2020 - Day 1
 
 
 ## Agenda
 
-
+- review Java concepts
+- review OOP
 
 ## Outline
 
@@ -28,12 +29,15 @@
 
 ### Make sure you have JDK11 installed
 
+1. [Go here for JDK11](https://adoptopenjdk.net/).
+2. Be sure you have JDK11 selected whenever we start a new project! 
+
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-### HTML Review
-
 ## Notes and Links
+
+- [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 
 ## Quote of the Day
 

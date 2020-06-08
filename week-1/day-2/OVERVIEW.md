@@ -1,11 +1,10 @@
 
-
-# DATE, 2020 - Day day-2
-
+# JUNE 8, 2020 - Day 2
 
 ## Agenda
 
-
+- review arrays, packages, and imports
+- start our Tic-Tac-Toe game together
 
 ## Outline
 
@@ -19,22 +18,25 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
 ## Lab
 
+### Start Your Tic-Tac-Toe Project
+
+1. In class, follow along so that you've already started your project.
+2. Following along is not mandatory but highly recommended!
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### Tic-Tac-Toe Project
 
-
-### HTML Review
-
+1. Finish your project.
+2. The project will be due by the end of the week on Sunday.
 
 ## Notes and Links
 
 
-## Quote of the Day 
+## Quote of the Day
 
 ```
  _____________________________________
