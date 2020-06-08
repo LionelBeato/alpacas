@@ -3,7 +3,7 @@
 
 ## Agenda
 
-- review arrays, packages, and imports
+- review collections, packages, and imports
 - start our Tic-Tac-Toe game together
 
 ## Outline
@@ -19,6 +19,12 @@
 | 9:00p  | Class is dismissed!              |
 
 ## Lab
+
+### Java Collections Practice
+
+1. Create three arrays with five items each.
+2. Create an `ArrayList` and add five items to it with the `.add()` method.
+3. Create a `HashMap` and add five items to it with the `.add()` method. 
 
 ### Start Your Tic-Tac-Toe Project
 

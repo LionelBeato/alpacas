@@ -1,11 +1,6 @@
-
-
-# DATE, 2020 - Day day-4
-
+# JUNE 15, 2020 - Day 4
 
 ## Agenda
-
-
 
 ## Outline
 
@@ -19,22 +14,14 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
 ## Lab
-
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
-### HTML Review
-
-
 ## Notes and Links
 
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ______________________________________
