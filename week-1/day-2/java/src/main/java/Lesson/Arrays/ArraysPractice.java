@@ -1,4 +1,4 @@
-package Arrays;
+package Lesson.Arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ public class ArraysPractice {
         // this is how you would declare and initialize an array
         // arrays are fixed after they're initialized
         String[] fruit = {"oranges", "apples", "pears"};
-        // while arrays lack helper methods, we use the Arrays class to utilize certain methods
+        // while arrays lack helper methods, we use the Lesson.Arrays class to utilize certain methods
         System.out.println(Arrays.toString(fruit));
         // arrays can be indexed using the square brackets
         System.out.println(fruit[1]);
