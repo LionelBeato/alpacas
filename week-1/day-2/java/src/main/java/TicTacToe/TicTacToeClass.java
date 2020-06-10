@@ -6,8 +6,7 @@ public class TicTacToeClass {
     private char[][] board;
     private int turns;
 
-    // constructor
-
+    // constructor for the game
     public TicTacToeClass(){
         board = new char[3][3];
         turns = 0;
@@ -18,6 +17,7 @@ public class TicTacToeClass {
     }
 
     // accessor methods
+    // these methods determine game states
     public boolean isWinner( char p){
         return false;
     }
@@ -30,6 +30,7 @@ public class TicTacToeClass {
         return false;
     }
 
+    // this method in particular checks to see if a tile is a valid move
     public boolean isValid( int r, int c){
         if (0 <= r && r <= 2 && 0 <= c && c <= 2)
             return true;
@@ -41,12 +42,16 @@ public class TicTacToeClass {
         return turns;
     }
 
+    // method to check where a player played a title
     public char playerAt( int r, int c){
         if (isValid(r, c))
             return board[r][c];
         else
             return '@';
     }
+
+    // actual display of our board
+    // note that the tiles are just indices of our 2 dimensional array
     public void displayBoard()
     {
         System.out.println("  0  " + board[0][0] + "|" + board[0][1] + "|" + board[0][2]);
@@ -57,9 +62,9 @@ public class TicTacToeClass {
         System.out.println("     0 1 2 ");
     }
 
-    // modifiers
+    // this method assigns a tile to a player
     public void playMove( char p, int r, int c){
-
+        board[r][c] = p;
     }
 
 
