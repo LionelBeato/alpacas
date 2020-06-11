@@ -11,6 +11,8 @@ public class TicTacToeClass {
         board = new char[3][3];
         turns = 0;
 
+        // this is a nested for loop
+        // this loop populates each tile with an empty space
         for (int r=0; r<3; r++)
             for (int c=0;c<3;c++)
                 board[r][c] = ' ';
@@ -18,15 +20,48 @@ public class TicTacToeClass {
 
     // accessor methods
     // these methods determine game states
-    public boolean isWinner( char p){
+    public boolean isWinner(char p){
+        int r = 0;
+//         here we would write out the win state for our game
+//         if three tiles in a row are filled then return true
+        if (board[r][0] == p && board[r][1] == p && board[r][2] == p){
+            return true;
+        }
+
+        if (board[0][0] == p && board[1][1] == p && board[2][2] == p) {
+            return true;
+        }
+
+        if (board[0][2] == p && board[1][1] == p && board[2][0] == p){
+            return true;
+        }
+
         return false;
     }
 
     public boolean isFull(){
+        // here we would check for board occupancy
+        // if all tiles are filled return true
+
+
+
+        for (int r=0; r<3; r++){
+            for (int c=0;c<3;c++){
+                 if (board[r][c] != ' '){
+                     if (numTurns() == 9){
+                         return true;
+                     }
+                }
+            }
+        }
+
         return false;
     }
 
     public boolean isCat(){
+        // here we would check for a tie
+        // if board is full and both players are not winners then return true
+        
         return false;
     }
 
@@ -42,7 +77,7 @@ public class TicTacToeClass {
         return turns;
     }
 
-    // method to check where a player played a title
+    // method to check where a player played a tile
     public char playerAt( int r, int c){
         if (isValid(r, c))
             return board[r][c];
@@ -65,6 +100,7 @@ public class TicTacToeClass {
     // this method assigns a tile to a player
     public void playMove( char p, int r, int c){
         board[r][c] = p;
+        turns++;
     }
 
 
