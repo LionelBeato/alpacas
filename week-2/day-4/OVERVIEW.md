@@ -2,6 +2,9 @@
 
 ## Agenda
 
+- Explore Test Driven Development
+- Practice and write JUnit Tests
+
 ## Outline
 
 | Time   | Objective                        |
