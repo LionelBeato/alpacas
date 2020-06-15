@@ -1,0 +1,21 @@
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class HelloWorldTest {
+
+    @Test
+    public void getMessage() {
+        // here were constructing a new instance of HelloWorld
+        HelloWorld hw = new HelloWorld();
+        // here were asserting that two given values are the same
+        assertEquals("Hello, World", hw.getMessage());
+    }
+
+    @Test
+    public void testGetMessage() {
+        HelloWorld hw = new HelloWorld();
+        assertEquals("Hello, Lionel!", hw.getMessage("Lionel"));
+
+    }
+}
