@@ -26,7 +26,7 @@
 
 1. Complete the labs portion of today's assignment in a gradle java project.
 2. Create a GitHub repository for your project.
-3. Paste a link to that repository in the text-field for the assisnment in TiTuS.
+3. Paste a link to that repository in the text-field for the assignment in TiTuS.
 
 ### TDD: Questions and Answers
 
@@ -35,7 +35,14 @@
 
 ### Leap Year Project
 
+1. Create a Java gradle program that tests if a given year is a leap year.
+2. Create a GitHub repository for your project.
+3. Paste a link to that repository in the text-field for the assignment in TiTuS.
+
 ## Notes and Links
+
+- [Breakdown of JUnit](https://www.vogella.com/tutorials/JUnit/article.html)
+- [YouTube Video on Test Driven Development](https://www.youtube.com/watch?v=y8TcPr73Bwo)
 
 ## Quote of the Day
 
