@@ -4,6 +4,9 @@ import static org.junit.Assert.*;
 
 public class HelloWorldTest {
 
+    // @Test is an annotation
+    // This lets JUnit know what is a test method and what isn't
+    // annotations are heavily encouraged with JUnit4 and above
     @Test
     public void getMessage() {
         // here were constructing a new instance of HelloWorld
