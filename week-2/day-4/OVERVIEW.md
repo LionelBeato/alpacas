@@ -22,6 +22,19 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### TDD: Labs
+
+1. Complete the labs portion of today's assignment in a gradle java project.
+2. Create a GitHub repository for your project.
+3. Paste a link to that repository in the text-field for the assisnment in TiTuS.
+
+### TDD: Questions and Answers
+
+1. Complete the questions and answers portion of today's assignment.
+2. Add your answers to the text-field for the assignment in TiTuS.
+
+### Leap Year Project
+
 ## Notes and Links
 
 ## Quote of the Day

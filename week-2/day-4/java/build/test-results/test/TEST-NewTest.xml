@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NewTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-16T00:07:44" hostname="ruby" time="0.0">
+  <properties/>
+  <testcase name="testing" classname="NewTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
