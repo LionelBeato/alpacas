@@ -6,6 +6,7 @@
 - tackle anonymous interfaces
 - touch on Java lambdas and streams
 - explore functional interfaces
+- talk about varargs and show examples of its usage
 
 ## Outline
 
