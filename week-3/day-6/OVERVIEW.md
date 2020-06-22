@@ -1,6 +1,8 @@
-# JUNE XX, 2020 - Day 6
+# JUNE 22, 2020 - Day 6
 
 ## Agenda
+
+- Learn and implement a few Java design patterns
 
 ## Outline
 
@@ -19,9 +21,10 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-### HTML Review
-
 ## Notes and Links
+
+- [Baeldung tutorial on various creational patterns](https://www.baeldung.com/creational-design-patterns)
+- [Another Baeldung link on specifically the observer pattern](https://www.baeldung.com/java-observer-pattern)
 
 ## Quote of the Day
 
