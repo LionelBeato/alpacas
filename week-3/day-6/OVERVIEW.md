@@ -21,6 +21,14 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### HackerRank Challenge
+
+1. Go to https://www.hackerrank.com/domains/java and complete the following exercises:
+    - Java Singleton Pattern
+    - Java Factory Pattern
+2. When you solve all of the examples, take a screenshot of the listing so that we can see "Solved" next to each of the exercises listed above.
+3. Submit your screenshot under *HackerRank Assignment* under *Java - Design Patterns*.
+
 ## Notes and Links
 
 - [Baeldung tutorial on various creational patterns](https://www.baeldung.com/creational-design-patterns)
