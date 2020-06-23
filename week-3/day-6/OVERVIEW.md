@@ -16,7 +16,7 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-## Lab
+<!-- ## Lab -->
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
