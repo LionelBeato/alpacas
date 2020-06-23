@@ -33,6 +33,7 @@
 
 - [Baeldung tutorial on various creational patterns](https://www.baeldung.com/creational-design-patterns)
 - [Another Baeldung link on specifically the observer pattern](https://www.baeldung.com/java-observer-pattern)
+- [Yet another Baeldung link on Abstract Factories](https://www.baeldung.com/java-abstract-factory-pattern)
 
 ## Quote of the Day
 
