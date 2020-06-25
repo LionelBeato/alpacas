@@ -34,6 +34,7 @@
 - [Big O Cheatsheet](https://www.bigocheatsheet.com/)
 - [Baeldung Practical Examples of Big O Java Algorithms](https://www.baeldung.com/java-algorithm-complexity)
 
+- No big project this week! Take the time to work on any previous missed assignments and projects.
 
 ## Quote of the Day
 
