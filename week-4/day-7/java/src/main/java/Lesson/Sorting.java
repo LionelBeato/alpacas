@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+// this class is just to demonstrate the built in sorting methods
 public class Sorting {
 
     public static void main(String[] args) {
@@ -18,6 +19,7 @@ public class Sorting {
         integerList.add(84);
         integerList.add(92);
 
+        // these are static methods on the class Arrays/Collections
         Arrays.sort(ints);
         Collections.sort(integerList);
 

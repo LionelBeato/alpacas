@@ -1,6 +1,6 @@
 package Lesson;
 
-public class Main {
+public class BigO {
 
     // Today we will be discussing Big O Notation and time-space complexity
 
@@ -70,7 +70,7 @@ public class Main {
 //        Lesson.Main.linearFunction(200000);
 
 //        Lesson.Main.otherLinearFunction(otherInts);
-        Main.polynomialFunction(otherInts);
+        BigO.polynomialFunction(otherInts);
 
 
 

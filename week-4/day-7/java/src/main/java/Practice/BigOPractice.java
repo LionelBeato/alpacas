@@ -1,6 +1,6 @@
-package Lesson;
+package Practice;
 
-public class Example {
+public class BigOPractice {
 
     // lets see if we can determine the time-space complexity of this function
     public static void printFirstItemThenFirstHalfThenSayHi100Times(int[] items){
@@ -32,6 +32,6 @@ public class Example {
     public static void main(String[] args) {
 
         int[] ints = {1,2,3,4,5};
-        Example.printFirstItemThenFirstHalfThenSayHi100Times(ints);
+        BigOPractice.printFirstItemThenFirstHalfThenSayHi100Times(ints);
     }
 }
