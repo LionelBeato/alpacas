@@ -1,11 +1,8 @@
-
-
-# DATE, 2020 - Day day-8
-
+# June 29, 2020 - Day 8
 
 ## Agenda
 
-
+- Explore Binary Trees and Heaps
 
 ## Outline
 
@@ -20,7 +17,7 @@
 | 9:00p  | Class is dismissed!              |
 
 
-## Lab
+<!-- ## Lab -->
 
 
 ## Hand in Assignments
@@ -28,13 +25,13 @@
 
 
 
-### HTML Review
-
-
 ## Notes and Links
 
+- [Baeldung link on Binary Trees](https://www.baeldung.com/java-binary-tree)
+- [Baeldung link on Heaps and Heap Sort](https://www.baeldung.com/java-heap-sort)
 
-## Quote of the Day 
+
+## Quote of the Day
 
 ```
  ________________________________________
