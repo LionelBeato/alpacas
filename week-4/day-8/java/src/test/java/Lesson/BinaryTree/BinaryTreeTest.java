@@ -8,6 +8,14 @@ import static org.junit.Assert.*;
 
 public class BinaryTreeTest {
 
+    // here we're using Junit 4 to write our unit tests
+    // this implementation is using the Intellij testing rather than gradle on my end
+    // but it may work on your system with gradle
+
+    // note that Junit 4 uses annotations
+    // this makes it easier to write tests that are clearer and concise
+    // note how verbose the test name is by itself
+    // this makes it clear what exactly it is that we're testing
     @Test
     public void givenABinaryTree_WhenAddingElements_ThenTreeContainsThoseElements(){
         BinaryTree bt = createBinaryTree();
@@ -26,8 +34,6 @@ public class BinaryTreeTest {
         bt.delete(45);
         assertFalse(bt.containsNode(45));
         System.out.println(bt);
-
-
     }
 
 
