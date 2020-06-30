@@ -29,6 +29,8 @@
 
 - [Baeldung link on Binary Trees](https://www.baeldung.com/java-binary-tree)
 - [Baeldung link on Heaps and Heap Sort](https://www.baeldung.com/java-heap-sort)
+- [Baeldung link on Recursion](https://www.baeldung.com/java-recursion)
+- [Video from HackerRank on Trees (check related videos for one on Heaps!)](https://www.youtube.com/watch?v=oSWTXtMglKE)
 
 
 ## Quote of the Day
