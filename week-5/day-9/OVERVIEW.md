@@ -1,12 +1,9 @@
-
-
-# DATE, 2020 - Day day-9
-
+# DATE, 2020 - Day 9
 
 ## Agenda
 
-
-
+- Review SQL and relevant SQL platforms
+- If there's time, look into Hibernate
 ## Outline
 
 | Time   | Objective                        |
@@ -20,15 +17,12 @@
 | 9:00p  | Class is dismissed!              |
 
 
-## Lab
+<!-- ## Lab -->
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
-### HTML Review
 
 
 ## Notes and Links
