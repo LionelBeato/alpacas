@@ -1,6 +1,6 @@
 # DATE, 2020 - Day 9
 
-## Agenda
+## Agend
 
 - Review SQL and relevant SQL platforms
 - If there's time, look into Hibernate
@@ -23,7 +23,11 @@
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
+### OPTIONAL: SQL Lab Practice
 
+1. Under SQL should be a section titled "Intro to SQL LAB". 
+2. Download all of the material necessary and follow the instructions in the `txt` file.
+3. This assignment will be considered optional.
 
 ## Notes and Links
 
