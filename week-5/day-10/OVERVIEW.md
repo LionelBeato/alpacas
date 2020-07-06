@@ -1,11 +1,10 @@
-
-
-# DATE, 2020 - Day day-10
+# # July, 2020 - Day 10
 
 
 ## Agenda
 
-
+- Review TypeScript and its differences from JavaScript
+- Introduce Angular
 
 ## Outline
 
@@ -19,20 +18,16 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
-## Lab
-
+<!-- ## Lab -->
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
 
-
-### HTML Review
-
-
 ## Notes and Links
 
+- [Angular Landing Page](https://angular.io)
+- [TypeScript Landing Page](https://www.typescriptlang.org/)
 
 ## Quote of the Day 
 

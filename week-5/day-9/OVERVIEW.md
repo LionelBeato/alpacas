@@ -1,6 +1,6 @@
-# DATE, 2020 - Day 9
+# July, 2020 - Day 9
 
-## Agend
+## Agenda
 
 - Review SQL and relevant SQL platforms
 - If there's time, look into Hibernate
@@ -44,6 +44,8 @@
 
 - [DataGrip, a great tool for SQL(I recommend you download this through JetBrains ToolBox!)](https://www.jetbrains.com/datagrip/)
 - [MariaDB download link](https://downloads.mariadb.org/)
+- [Baeldung article on JDBC](https://www.baeldung.com/java-jdbc)
+- [Online SQL tool](https://sqliteonline.com/)
 
 ## Quote of the Day 
 
