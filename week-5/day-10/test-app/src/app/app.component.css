@@ -1,0 +1,11 @@
+h1{
+    color:red; 
+    font-weight: 1000;
+}
+
+.nav{
+    height:2rem;
+    width:100%;
+    background-color: cornflowerblue;
+    
+}

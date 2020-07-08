@@ -1,11 +1,9 @@
-
-
-# DATE, 2020 - Day day-11
+# July 8, 2020 - Day 11
 
 
 ## Agenda
 
-
+- Continue our work with Angular, exploring forms, visuals, and bells and whistles.
 
 ## Outline
 
@@ -25,10 +23,6 @@
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
-
-
-
-### HTML Review
 
 
 ## Notes and Links
