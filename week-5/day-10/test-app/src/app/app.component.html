@@ -12,13 +12,41 @@
   </h1>
 </div> -->
 
-<div class="nav">
+<mat-toolbar color="primary">
+  <!-- <button mat-icon-button color="primary" (click)="drawer.toggle()"  class="example-icon" aria-label="Example icon-button with menu icon"> -->
+    <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+  <!-- </button> -->
+  <span> My App</span>
+
+</mat-toolbar>
+
+
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode ="side">
+  <p>Hello</p>
+  <p *ngIf="showFiller">Lorem Ipsum dolor sit amet</p>
+  <button (click)="showFiller = !showFiller" mat-raisded-button>
+    Toggle extra Text
+  </button>
+  </mat-drawer>
+
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()"> 
+      Toggle SideNav
+    </button>
+  </div>
+</mat-drawer-container>
+
+<!-- <div class="nav">
   
-</div>
+</div> -->
 
 
-
+<!-- 
 <app-forms></app-forms>
 <app-animate></app-animate>
+
+<mat-slider min="1" max="100" step="1" value="1"></mat-slider> -->
 
 <router-outlet></router-outlet>

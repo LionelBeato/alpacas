@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+
+  showFiller = false;
+  
   title = 'hi-app';
   name = 'Fabiana';
 
