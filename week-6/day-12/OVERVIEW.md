@@ -1,10 +1,10 @@
-
-
-# DATE, 2020 - Day day-12
+# July 13, 2020 - Day 12
 
 
 ## Agenda
 
+- Review the MVC model
+- Explore Spring and Spring Boot
 
 
 ## Outline
@@ -19,22 +19,17 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
-## Lab
+<!-- ## Lab -->
 
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
 
-
-### HTML Review
-
-
 ## Notes and Links
 
 
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ______________________________________

@@ -19,9 +19,9 @@
 | 9:00p  | Class is dismissed!              |
 
 <!-- ## Lab -->
-
+<!-- 
 ## Hand in Assignments
->these are expected to be handed in through TiTuS.
+>these are expected to be handed in through TiTuS. -->
 
 
 ## Notes and Links

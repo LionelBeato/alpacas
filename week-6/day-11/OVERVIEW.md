@@ -1,6 +1,5 @@
 # July 8, 2020 - Day 11
 
-
 ## Agenda
 
 - Continue our work with Angular, exploring forms, visuals, and bells and whistles.
@@ -17,18 +16,18 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
+<!-- ## Lab -->
 
-## Lab
-
-
-## Hand in Assignments
->these are expected to be handed in through TiTuS.
+<!-- ## Hand in Assignments
+>these are expected to be handed in through TiTuS. -->
 
 
 ## Notes and Links
 
+- [Material Design website]()
+- [Material Design for Angular]()
 
-## Quote of the Day 
+## Quote of the Day
 
 ```
  ________________________________________
