@@ -1,0 +1,27 @@
+table{
+    /*background-color: red;*/
+    /*border:3px solid black;*/
+    max-width:50rem;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin:auto;
+
+}
+
+td, th, table{
+    border:1px solid black;
+}
+
+th {
+    background-color:silver;
+}
+
+td, th{
+    padding:1rem;
+}
+
+h1{
+    text-align: center;
+    font-family: "Droid Sans";
+}
+

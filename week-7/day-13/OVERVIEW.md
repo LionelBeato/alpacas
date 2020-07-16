@@ -1,11 +1,10 @@
 
-
-# DATE, 2020 - Day day-13
-
+# DATE, 2020 - Day 13
 
 ## Agenda
 
-
+- Keep working on our Spring Boot App
+- Connect a database if there's time
 
 ## Outline
 
@@ -19,22 +18,19 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
-## Lab
-
+<!-- ## Lab -->
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
 
 
-### HTML Review
-
 
 ## Notes and Links
 
 
-## Quote of the Day 
+
+## Quote of the Day
 
 ```
  _______________________________________
