@@ -1,6 +1,5 @@
 # # July, 2020 - Day 10
 
-
 ## Agenda
 
 - Review TypeScript and its differences from JavaScript
@@ -30,7 +29,7 @@
 - [TypeScript Landing Page](https://www.typescriptlang.org/)
 - [Article on the difference between a Framework and Library](https://medium.com/better-programming/libraries-vs-frameworks-whats-the-difference-5f28c53dcffe)
 
-## Quote of the Day 
+## Quote of the Day
 
 ```
  _______________________________________

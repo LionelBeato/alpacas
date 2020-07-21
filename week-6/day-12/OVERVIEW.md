@@ -1,4 +1,4 @@
-# July 13, 2020 - Day 12
+# JULY 13, 2020 - Day 12
 
 ## Agenda
 

@@ -1,6 +1,6 @@
 
 
-# DATE, 2020 - Day day-15
+# JULY 22, 2020 - Day day-15
 
 
 ## Agenda

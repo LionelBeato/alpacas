@@ -1,4 +1,4 @@
-# July 8, 2020 - Day 11
+# JULY 8, 2020 - Day 11
 
 ## Agenda
 

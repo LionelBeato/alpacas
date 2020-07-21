@@ -1,6 +1,6 @@
 
 
-# DATE, 2020 - Day day-14
+# JULY 20, 2020 - Day 14
 
 
 ## Agenda

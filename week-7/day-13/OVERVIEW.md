@@ -1,5 +1,5 @@
 
-# DATE, 2020 - Day 13
+# JULY, 2020 - Day 13
 
 ## Agenda
 

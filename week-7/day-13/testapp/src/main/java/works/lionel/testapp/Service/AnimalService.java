@@ -2,7 +2,6 @@ package works.lionel.testapp.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 import works.lionel.testapp.Model.Animal;
 import works.lionel.testapp.Repository.AnimalRepository;
 
@@ -18,7 +17,7 @@ public class AnimalService {
         return animalRepository.findAll();
     }
 
-    public void postAnimal(@RequestBody Animal animal){
+    public void postAnimal(Animal animal){
         animalRepository.save(animal);
     }
 

@@ -49,7 +49,7 @@ public class AnimalController {
     // this aligns with "create"
 
     @PostMapping("/post")
-    public void postAnimal(@RequestBody Animal animal){
+    public void postAnimal(@ModelAttribute Animal animal){
         animalService.postAnimal(animal);
     }
 

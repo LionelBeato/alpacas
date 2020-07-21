@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Users Page</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<h1>List of Users</h1>
+
+<table>
+
+    <tr>
+        <th>Id</th>
+        <th>Last Name</th>
+        <th>First Name</th>
+        <th>Email</th>
+        <th>Type</th>
+        <th>Delete</th>
+        <th>Update</th>
+
+    </tr>
+
+    <!--    this code is basically a foreach loop -->
+    <tr th:each="user : ${users}">
+        <!-- here you would define whatever property of animal you would want displayed    -->
+        <td th:text="${user.id}">id</td>
+        <td th:text="${user.firstName}">first name</td>
+        <td th:text="${user.lastName}">lastName</td>
+        <td th:text="${user.email}">email</td>
+        <td th:text="${user.type}">type</td>
+        <td>
+            <a th:href="@{'/users/delete/' + ${user.id}}">Delete</a>
+
+        </td>
+        <td>
+            <a href="#" th:attr="onclick=|postFunc('${user.id}')|">Update</a>
+        </td>
+    </tr>
+
+</table>
+
+<form >
+    <div>
+        <label for="id">Enter id</label>
+        <input  name="id" id="id" value="id">
+
+
+        <label for="firstName">Enter first name:</label>
+        <input name="firstName" id="firstName" value="firstName">
+
+    </div>
+    <div>
+
+    </div>
+</form>
+
+<button onclick="postFunc()">Do the thing!</button>
+
+
+
+
+<script>
+
+    // const form = document.querySelector('form');
+    const id = document.querySelector('#id');
+    const firstName = document.querySelector('#firstName');
+
+    function testFunc(){
+    console.log();
+        }
+
+
+    // const data = JSON.stringify(Object.fromEntries(form));
+
+
+
+    function postFunc(){
+
+        const data =
+            {
+                id: id.value,
+                firstName: firstName.value,
+                lastName : "lastName",
+                email : "foo@bar.com",
+                type : "foobar",
+            }
+
+
+        fetch('http://localhost:8080/users/post', {
+            method: 'POST',
+            headers: {
+                'Content-Type':'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => console.log("post successful"));
+    }
+
+
+
+</script>
+</body>
+</html>

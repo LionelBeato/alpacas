@@ -1,11 +1,9 @@
-
-
-# DATE, 2020 - Day day-16
+# JULY 27, 2020 - Day 16
 
 
 ## Agenda
 
-
+- Continue working on our Frontend app!
 
 ## Outline
 
@@ -20,21 +18,13 @@
 | 9:00p  | Class is dismissed!              |
 
 
-## Lab
-
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
-### HTML Review
-
-
 ## Notes and Links
 
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  _________________________________________
