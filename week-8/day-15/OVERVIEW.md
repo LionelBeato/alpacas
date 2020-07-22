@@ -1,11 +1,10 @@
 
-
-# JULY 22, 2020 - Day day-15
-
+# JULY 22, 2020 - Day 15
 
 ## Agenda
 
-
+- Final few steps to complete our frontend application!
+- Is there anything else we could possibly add? How can we have it so that we use POST through thymeleaf?
 
 ## Outline
 
@@ -19,22 +18,16 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
 ## Lab
-
 
 ## Hand in Assignments
 >these are expected to be handed in through TiTuS.
 
-
-
 ### HTML Review
-
 
 ## Notes and Links
 
-
-## Quote of the Day 
+## Quote of the Day
 
 ```
  _______________________________________

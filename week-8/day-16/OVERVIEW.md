@@ -1,6 +1,5 @@
 # JULY 27, 2020 - Day 16
 
-
 ## Agenda
 
 - Continue working on our Frontend app!
@@ -17,9 +16,8 @@
 | 8:50p  | Retrospective                    |
 | 9:00p  | Class is dismissed!              |
 
-
-
 ## Hand in Assignments
+
 >these are expected to be handed in through TiTuS.
 
 ## Notes and Links
