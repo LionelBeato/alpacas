@@ -14,8 +14,8 @@
 
     <tr>
         <th>Id</th>
-        <th>Last Name</th>
         <th>First Name</th>
+        <th>Last Name</th>
         <th>Email</th>
         <th>Type</th>
         <th>Delete</th>
@@ -24,69 +24,170 @@
     </tr>
 
     <!--    this code is basically a foreach loop -->
-    <tr th:each="user : ${users}">
+    <tr th:attr="id=${user.id}" th:each="user : ${users}">
         <!-- here you would define whatever property of animal you would want displayed    -->
-        <td th:text="${user.id}">id</td>
-        <td th:text="${user.firstName}">first name</td>
-        <td th:text="${user.lastName}">lastName</td>
-        <td th:text="${user.email}">email</td>
-        <td th:text="${user.type}">type</td>
+        <td th:text="${user.id}" th:attr="onclick=|makeEditable('${user.id}')|">id</td>
+        <td th:attr="id=|firstname-${user.id}|" th:text="${user.firstName}">first name</td>
+        <td th:attr="id=|lastname-${user.id}|" th:text="${user.lastName}">lastName</td>
+        <td th:attr="id=|email-${user.id}|" th:text="${user.email}">email</td>
+        <td th:attr="id=|type-${user.id}|"th:text="${user.type}">type</td>
         <td>
-            <a th:href="@{'/users/delete/' + ${user.id}}">Delete</a>
+            <a contentEditable="false" th:attr="id=|delete-${user.id}" href="#">Delete</a>
 
         </td>
         <td>
-            <a href="#" th:attr="onclick=|postFunc('${user.id}')|">Update</a>
+            <a contentEditable="false" th:attr="id=|update-${user.id}|" href="http://localhost:8080/users/view">Update</a>
         </td>
     </tr>
 
 </table>
 
-<form >
-    <div>
-        <label for="id">Enter id</label>
-        <input  name="id" id="id" value="id">
+<div id="form">
+
+        <label for="firstname">Enter first name</label>
+        <input  name="firstname" id="firstname" value="firstname">
+    <label for="lastname">Enter last name</label>
+    <input  name="lastname" id="lastname" value="lastname">
+    <label for="email">Enter email</label>
+    <input  name="email" id="email" value="email">
+    <label for="type">Enter type</label>
+    <input  name="type" id="type" value="type">
 
 
-        <label for="firstName">Enter first name:</label>
-        <input name="firstName" id="firstName" value="firstName">
+<!--        <label for="firstName">Enter first name:</label>-->
+<!--        <input name="firstName" id="firstName" value="firstName">-->
 
-    </div>
-    <div>
 
-    </div>
-</form>
+<button id="submit">Do the thing!</button>
 
-<button onclick="postFunc()">Do the thing!</button>
+</div>
 
 
 
 
 <script>
 
+
+    const refresh = () => {
+        location.reload();
+    }
+
+
+
     // const form = document.querySelector('form');
     const id = document.querySelector('#id');
     const firstName = document.querySelector('#firstName');
 
-    function testFunc(){
-    console.log();
+    let button = document.getElementById("submit");
+    console.log(button);
+
+    button.onclick = () => {
+        let firstName = document.getElementById("firstname").value;
+        let lastName = document.getElementById("lastname").value;
+        let email = document.getElementById("email").value;
+        let type = document.getElementById("type").value;
+
+
+
+        postFunc(firstName, lastName, email, type)
+        location.reload();
+
+    }
+
+
+
+    function makeEditable(idNum){
+        console.log("This works!");
+        const row = document.getElementById(`${idNum}`);
+        console.log(row);
+
+        let firstName = document.getElementById(`firstname-${idNum}`);
+        let lastName = document.getElementById(`lastname-${idNum}`);
+        let email = document.getElementById(`email-${idNum}`);
+        let type = document.getElementById(`type-${idNum}`);
+        let update = document.getElementById(`update-${idNum}`);
+
+        console.log(firstName.innerText);
+        console.log(lastName.innerText);
+        console.log(email.innerText);
+        console.log(type.innerText);
+
+        row.setAttribute("contentEditable", "true");
+
+        update.onclick = () => {
+            console.log("this event listener works!");
+            putFunc(idNum, firstName.innerText, lastName.innerText, email.innerText, type.innerText);
         }
+
+        let del = document.getElementById(`delete-${idNum}`);
+        del.onclick = () => {
+            deleteFunc(idNum);
+            console.log("entity deleted!");
+            setTimeout(() => {
+                location.reload();
+            }, 500);
+        }
+
+
+
+
+    }
+
+    // function testFunc(){
+    // console.log();
+    //     }
 
 
     // const data = JSON.stringify(Object.fromEntries(form));
 
 
+    function deleteFunc(id){
+        fetch(`http://localhost:8080/users/delete/${id}`, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type':'application/json',
+            },
+            // body: JSON.stringify(data),
+        })
+        console.log("entity deleted!");
 
-    function postFunc(){
+    }
+
+
+    function postFunc(firstName, lastName, email, type){
 
         const data =
             {
-                id: id.value,
-                firstName: firstName.value,
-                lastName : "lastName",
-                email : "foo@bar.com",
-                type : "foobar",
+                firstName: firstName,
+                lastName : lastName,
+                email : email,
+                type : type,
             }
+
+        console.log(data);
+
+
+        fetch('http://localhost:8080/users/post', {
+            method: 'POST',
+            headers: {
+                'Content-Type':'application/json',
+            },
+            body: JSON.stringify(data),
+        })}
+
+
+    function putFunc(id, firstName, lastName, email, type){
+
+        const data =
+            {
+                id: id,
+                firstName: firstName,
+                lastName : lastName,
+                email : email,
+                type : type,
+            }
+
+            console.log(data);
 
 
         fetch('http://localhost:8080/users/post', {
@@ -98,8 +199,6 @@
         })
             .then(response => console.log("post successful"));
     }
-
-
 
 </script>
 </body>

@@ -19,6 +19,8 @@ public class UserController {
 
 
     //get
+    // this could be described as an "endpoint"
+    // this describes a location that you can reach that will provide some sort of resource or access to resource methods
     @GetMapping("/view")
     public ModelAndView viewUsers(){
         Iterable<User> users = userService.getUsers();
@@ -28,7 +30,6 @@ public class UserController {
     }
 
     //create
-
     @PostMapping("/post")
     public String postUser (@RequestBody User user){
         userService.postUser(user);

@@ -20,7 +20,20 @@
 
 >these are expected to be handed in through TiTuS.
 
+## Homework
+
+### (Optional) Get Started on your Spring Boot App!
+
+1. We went through examples together, but now its time for you to experiment with your own application. Go ahead and follow my lead and create your own spring boot app.
+2. This app does not need to be complete, I just want to see at least some progress. Try to have a complete model done.
+3. Push your code to GitHub!
+4. Keep in mind that this will more than likely be mandatory *next week*!
+
 ## Notes and Links
+
+- [Baeldung article on a simple Spring Boot app](https://www.baeldung.com/spring-boot-start)
+- [Comparison of Ant, Maven, and Gradle](https://www.baeldung.com/ant-maven-gradle)
+- [Spring Initializer](https://start.spring.io/)
 
 ## Quote of the Day
 
